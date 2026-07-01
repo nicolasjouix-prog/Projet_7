@@ -111,6 +111,11 @@ body {
 	line-height: 1;
 }
 
+main {
+	margin-right : 120px;
+	margin-left : 120px;
+}
+
 ol,
 ul {
 	list-style: none;
@@ -140,6 +145,7 @@ body {
 	margin: auto;
 	font-family: 'Work Sans';
 	font-size: 14px;
+	color: #1D6154;
 }
 
 header {
@@ -182,9 +188,19 @@ nav ul {
 
 }
 
-nav li {
+nav li{
 	padding: 0 10px;
 	font-size: 1.2em;
+	color: #000000;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+nav li img {
+	width: 20px;
 }
 
 li:hover {
@@ -194,6 +210,7 @@ li:hover {
 #introduction {
 	display: flex;
 	align-items: center;
+	margin-top: 100px;
 }
 
 #introduction figure {
@@ -202,7 +219,6 @@ li:hover {
 
 #introduction img {
 	display: block;
-	margin: auto;
 	width: 80%;
 }
 
@@ -222,10 +238,7 @@ li:hover {
 	text-align: center;
 	margin-bottom: 1em;
 	margin-top: 150px;
-	/* modif */
 }
-
-/* modification du filtre */
 
 .filters {
 
@@ -253,10 +266,8 @@ button {
 button:hover {
 	color: white;
 	background-color: #1D6154;
-	border : 1px solid #1D6154;
+	border: 1px solid #1D6154;
 }
-
-/* fin modification */
 
 .gallery {
 	width: 100%;
@@ -323,4 +334,19 @@ footer nav ul {
 	display: flex;
 	justify-content: flex-end;
 	margin: 2em
+}
+
+/* page login */
+
+.forgot-password {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #1D6154;
+	font-family: 'Work Sans';
+}
+
+.login #contact input[type="submit"] {
+	height:36px;
 }
